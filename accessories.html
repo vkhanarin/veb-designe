@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accessories</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #fafafc;
+      font-family: Arial, sans-serif;
+      color: #333336;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 44px;
+      margin-left: 105px;
+      margin-right: 26px;
+      font-size: 14px;
+    }
+
+    .active {
+      color: #000000;
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 24px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 60px;
+      margin-top: 56px;
+      margin-left: 105px;
+    }
+
+    .products {
+      width: 334px;
+    }
+
+    .categories {
+      width: 172px;
+    }
+
+    h2 {
+      margin: 0 0 17px;
+      color: #6e6e73;
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: normal;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .products li {
+      margin-bottom: 11px;
+      font-size: 30px;
+      line-height: 37px;
+      font-weight: 600;
+      letter-spacing: -0.8px;
+    }
+
+    .categories li, .explore li {
+      margin-bottom: 10px;
+      color: #000000;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    a:hover {
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navigation" aria-label="Main navigation">
+    <a class="icon" href="#" aria-label="Apple">
+      <svg width="19" height="24" viewBox="0 0 24 28" aria-hidden="true">
+        <path fill="currentColor" d="M16.6 1.1c.2 2-1 4-2.3 5.1-1.2 1-2.8 1.6-4.1 1.4-.2-1.9 1-3.9 2.2-5 1.3-1.1 3-1.7 4.2-1.5ZM20.8 9.1c-1.7 1-2.7 2.6-2.7 4.4 0 2.3 1.4 4.1 3.3 4.9-.5 1.4-1.2 2.8-2.1 4.1-1.1 1.6-2.2 3.2-4 3.2-1.5 0-2-1-3.9-1s-2.5 1-4 1c-1.7 0-2.9-1.6-4-3.3C.3 17.9.6 11.1 3.1 8.6c1.3-1.3 2.9-1.9 4.5-1.9 1.7 0 2.8 1 4 1 1.1 0 2.8-1.2 4.8-1 1.8.1 3.3.9 4.4 2.4Z" />
+      </svg>
+    </a>
+    <a href="#">Store</a>
+    <a href="#">Mac</a>
+    <a href="#">iPad</a>
+    <a href="#">iPhone</a>
+    <a href="#">Watch</a>
+    <a href="#">Vision</a>
+    <a href="#">AirPods</a>
+    <a href="#">TV &amp; Home</a>
+    <a href="#">Entertainment</a>
+    <a class="active" href="#">Accessories</a>
+    <a href="#">Support</a>
+    <a class="icon" href="#" aria-label="Search">
+      <svg width="20" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <circle cx="10" cy="9" r="7" />
+        <path d="m15 14 7 7" />
+      </svg>
+    </a>
+    <a class="icon" href="#" aria-label="Shopping bag">
+      <svg width="20" height="24" viewBox="0 0 24 26" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <rect x="3" y="6" width="17" height="17" rx="2" />
+        <path d="M8 6V4a3.5 3.5 0 0 1 7 0v2" />
+      </svg>
+    </a>
+  </nav>
+
+  <main class="menu">
+    <div class="products">
+      <h2>Shop by Product</h2>
+      <ul>
+        <li><a href="#">Shop All Accessories</a></li>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">iPad</a></li>
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">Apple Watch</a></li>
+        <li><a href="#">Apple Vision Pro</a></li>
+        <li><a href="#">AirPods</a></li>
+        <li><a href="#">TV &amp; Home</a></li>
+        <li><a href="#">AirTag</a></li>
+        <li><a href="#">Beats</a></li>
+      </ul>
+    </div>
+
+    <div class="categories">
+      <h2>Shop by Category</h2>
+      <ul>
+        <li><a href="#">Headphones &amp; Speakers</a></li>
+        <li><a href="#">Chargers &amp; Adapters</a></li>
+        <li><a href="#">Smart Home Essentials</a></li>
+        <li><a href="#">Cases &amp; Protection</a></li>
+        <li><a href="#">Content Creation</a></li>
+        <li><a href="#">Gaming</a></li>
+        <li><a href="#">Hard Drives &amp; Storage</a></li>
+        <li><a href="#">Mice &amp; Keyboards</a></li>
+        <li><a href="#">Health &amp; Fitness</a></li>
+        <li><a href="#">Office Accessories</a></li>
+        <li><a href="#">Software</a></li>
+      </ul>
+    </div>
+
+    <div class="explore">
+      <h2>More to Explore</h2>
+      <ul>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Made by Apple</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Assistive Technologies</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
